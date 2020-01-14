@@ -88,3 +88,5 @@ fields:
     max: 
     labelField: 
   label: Work Experience
+pages:
+- content/posts/mackan.md
