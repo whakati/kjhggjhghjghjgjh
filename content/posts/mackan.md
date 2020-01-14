@@ -11,6 +11,11 @@ contact:
   phone: dsadsasda
   email: sasadasdsda
 work_experience:
+- client: lkuhjgfdf
+  duration: lk.jhgfd
+  role: ljkhgfd
+  summary: lökjhgfd
+  techniques: u78yhjbnim
 - client: das
   duration: dsa
   role: dsa
