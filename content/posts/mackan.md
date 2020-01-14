@@ -10,6 +10,11 @@ contact:
 - name: asddsadas
   phone: dsadsasda
   email: sasadasdsda
-work_experience: []
+work_experience:
+- client: das
+  duration: dsa
+  role: dsa
+  summary: dsa
+  techniques: das
 
 ---
