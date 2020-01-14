@@ -1,4 +1,90 @@
 ---
 label: Resume
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
+- name: introduction
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Introduction
+- name: skills
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Skills
+- name: contact
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: phone
+    type: text
+    config:
+      required: false
+    label: Phone
+  - name: email
+    type: text
+    config:
+      required: false
+    label: Email
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Contact
+- name: work_experience
+  type: field_group_list
+  fields:
+  - name: client
+    type: text
+    config:
+      required: false
+    label: Client
+  - name: duration
+    type: text
+    config:
+      required: false
+    label: Duration
+  - name: role
+    type: text
+    config:
+      required: false
+    label: Role
+  - name: summary
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Summary
+  - name: techniques
+    type: text
+    config:
+      required: false
+    label: Techniques
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Work Experience
